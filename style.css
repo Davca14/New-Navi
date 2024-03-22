@@ -9,7 +9,7 @@ body {
 .navbar {
   background-color: #cc1515; /* Background color of the navigation bar */
   overflow: hidden;
-  width: 80%; /* Set a specific width for the navigation bar */
+  width: 100%; /* Set a specific width for the navigation bar */
   display: flex; /* Use flexbox for centering child elements */
   justify-content: space-between; /* Distribute space between elements */
   padding: 10px; /* Add padding for spacing */
