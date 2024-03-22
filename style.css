@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 50vh; /* Ensure full viewport height */
+  margin: 0; /* Remove default margin */
+}
+
+.navbar {
+  background-color: #333; /* Background color of the navigation bar */
+  overflow: hidden;
+  width: 70%; /* Set a specific width for the navigation bar */
+  display: flex; /* Use flexbox for centering child elements */
+  justify-content: space-between; /* Distribute space between elements */
+  padding: 10px; /* Add padding for spacing */
+  border-radius: 10px;
+}
+
+.navbar a {
+  color: #f2f2f2; /* Text color of the navigation links */
+  text-decoration: none;
+  font-size: 17px;
+  padding: 12px 14px; /* Add padding for spacing */
+  border-radius: 16px; /* Rounded edges for the buttons */
+}
+
+.navbar a:hover {
+  background-color: #ddd; /* Background color of the buttons on hover */
+  color: black; /* Text color of the buttons on hover */
+}
