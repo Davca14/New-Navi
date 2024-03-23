@@ -11,7 +11,7 @@ body {
     212,
     76,
     71); /* Background color of the navigation bar */
-  overflow-y: auto;
+  overflow: hidden;
   width: 100%; /* Set a specific width for the navigation bar */
   display: flex; /* Use flexbox for centering child elements */
   justify-content: space-evenly; /* Distribute space between elements */
@@ -40,6 +40,7 @@ body {
     flex-direction: column; /* Change flex direction to vertical */
     align-items: center; /* Center items vertically */
     width: 50%; /* Adjust width to full width of the viewport */
+    overflow: scroll;
   }
 
   .navbar a {
