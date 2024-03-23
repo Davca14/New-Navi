@@ -32,6 +32,7 @@ body {
 .navbar a:hover {
   background-color: #ddd; /* Background color of the buttons on hover */
   color: rgb(47, 46, 46); /* Text color of the buttons on hover */
+  transition: color 0.2s ease;
 }
 
 /* Media query for mobile devices */
