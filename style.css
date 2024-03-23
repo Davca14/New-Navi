@@ -24,7 +24,7 @@ body {
 .navbar a {
   color: #f2f2f2; /* Text color of the navigation links */
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   padding: 8px 25px; /* Add padding for spacing */
   border-radius: 25px; /* Rounded edges for the buttons */
 }
