@@ -13,7 +13,7 @@ body {
     126,
     0.8
   ); /* Background color of the navigation bar */
-  overflow: visible;
+  overflow-y: auto;
   width: 100%; /* Set a specific width for the navigation bar */
   display: flex; /* Use flexbox for centering child elements */
   justify-content: space-evenly; /* Distribute space between elements */
