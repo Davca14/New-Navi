@@ -12,7 +12,7 @@ body {
   width: 100%; /* Set a specific width for the navigation bar */
   display: flex; /* Use flexbox for centering child elements */
   justify-content: space-evenly; /* Distribute space between elements */
-  padding: 10px; /* Add padding for spacing */
+  padding: 5px; /* Add padding for spacing */
   border-radius: 10px;
 }
 
