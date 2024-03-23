@@ -28,3 +28,16 @@ body {
   background-color: #ddd; /* Background color of the buttons on hover */
   color: black; /* Text color of the buttons on hover */
 }
+
+/* Media query for mobile devices */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column; /* Change flex direction to vertical */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Adjust width to full width of the viewport */
+  }
+
+  .navbar a {
+    margin: 10px 0; /* Add spacing between navigation items */
+  }
+}
