@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically */
-  height: 80vh; /* Ensure full viewport height */
+  height: 100vh; /* Ensure full viewport height */
   margin: 0; /* Remove default margin */
 }
 
@@ -11,7 +11,7 @@ body {
   overflow: hidden;
   width: 100%; /* Set a specific width for the navigation bar */
   display: flex; /* Use flexbox for centering child elements */
-  justify-content: space-between; /* Distribute space between elements */
+  justify-content: space-evenly; /* Distribute space between elements */
   padding: 10px; /* Add padding for spacing */
   border-radius: 10px;
 }
