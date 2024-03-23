@@ -7,12 +7,10 @@ body {
 }
 
 .navbar {
-  background-color: rgba(
-    26,
-    35,
-    126,
-    0.8
-  ); /* Background color of the navigation bar */
+  background-color: rgb(
+    212,
+    76,
+    71); /* Background color of the navigation bar */
   overflow-y: auto;
   width: 100%; /* Set a specific width for the navigation bar */
   display: flex; /* Use flexbox for centering child elements */
