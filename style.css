@@ -32,7 +32,8 @@ body {
 .navbar a:hover {
   background-color: #ddd; /* Background color of the buttons on hover */
   color: rgb(47, 46, 46); /* Text color of the buttons on hover */
-  transition: color 0.2s ease;
+  transition: color 0.3s ease;
+  transition: background-color 0.3s;
 }
 
 /* Media query for mobile devices */
@@ -44,8 +45,8 @@ body {
   }
 
   .navbar a {
-    margin: 10px 0; /* Add spacing between navigation items */
-    font-size:14px;
-    padding: 5px 0px
+    margin: 2px 2px; /* Add spacing between navigation items */
+    font-size: 14px;
+    padding: 5px 5px;
   }
 }
