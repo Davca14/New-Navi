@@ -7,26 +7,31 @@ body {
 }
 
 .navbar {
-  background-color: #cc1515; /* Background color of the navigation bar */
-  overflow: hidden;
+  background-color: rgba(
+    26,
+    35,
+    126,
+    0.8
+  ); /* Background color of the navigation bar */
+  overflow: visible;
   width: 100%; /* Set a specific width for the navigation bar */
   display: flex; /* Use flexbox for centering child elements */
   justify-content: space-evenly; /* Distribute space between elements */
-  padding: 5px; /* Add padding for spacing */
-  border-radius: 10px;
+  padding: 2px; /* Add padding for spacing */
+  border-radius: 25px;
 }
 
 .navbar a {
   color: #f2f2f2; /* Text color of the navigation links */
   text-decoration: none;
   font-size: 20px;
-  padding: 10px 12px; /* Add padding for spacing */
-  border-radius: 16px; /* Rounded edges for the buttons */
+  padding: 8px 25px; /* Add padding for spacing */
+  border-radius: 25px; /* Rounded edges for the buttons */
 }
 
 .navbar a:hover {
   background-color: #ddd; /* Background color of the buttons on hover */
-  color: black; /* Text color of the buttons on hover */
+  color: rgb(47, 46, 46); /* Text color of the buttons on hover */
 }
 
 /* Media query for mobile devices */
@@ -34,10 +39,12 @@ body {
   .navbar {
     flex-direction: column; /* Change flex direction to vertical */
     align-items: center; /* Center items vertically */
-    width: 100%; /* Adjust width to full width of the viewport */
+    width: 50%; /* Adjust width to full width of the viewport */
   }
 
   .navbar a {
     margin: 10px 0; /* Add spacing between navigation items */
+    font-size:14px;
+    padding: 5px 0px
   }
 }
