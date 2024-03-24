@@ -39,7 +39,7 @@ body {
   .navbar {
     flex-direction: column; /* Change flex direction to vertical */
     align-items: center; /* Center items vertically */
-    width: 50%; /* Adjust width to full width of the viewport */
+    width: 100%; /* Adjust width to full width of the viewport */
     height: 60px;
     overflow-y: scroll;
   }
