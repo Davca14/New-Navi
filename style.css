@@ -35,12 +35,13 @@ body {
 }
 
 /* Media query for mobile devices */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .navbar {
     flex-direction: column; /* Change flex direction to vertical */
     align-items: center; /* Center items vertically */
     width: 50%; /* Adjust width to full width of the viewport */
-    overflow: scroll;
+    height: 20px;
+    overflow-y: scroll;
   }
 
   .navbar a {
